@@ -2,14 +2,9 @@ import ButtonCSS from './components/ButtonCSS'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        
-      </header>
+    <div >
+     <button>Simple Button</button>
+     <ButtonCSS />
     </div>
   );
 }
