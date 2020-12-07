@@ -1,12 +1,10 @@
-import React, { Component } from 'react';
-import '../styles/button.css'; // Tell webpack that Button.js uses these styles
+import React from 'react'
+import '../styles/button.css'
 
 export default function ButtonCSS() {
-  
-    return (
-      <button className="button-css" >
-        Button 
-      </button>
-    )
-  
+  return (
+    <button className="btn button-css">
+      Button CSS
+    </button>
+  )
 }
